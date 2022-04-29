@@ -1,14 +1,37 @@
 h1 {
     color: purple;
+    text-align: center;
 }
-
+h1 {
+    color: green;
+    text-align: center;
+}
 p {
     color: darkblue;
 }
 
-form{
+p.describe {
+    display: none;
+    background-color: khaki;
+    padding: 20px;
+}
+
+.para::first-letter {
+    color: red;
+}
+
+div:hover p {
+    display: block;
+}
+
+form {
     margin: 50px;
 }
+
 body {
-    background-color: pink;
+    background-color: #fd41ac;
+}
+
+ol, ul, li{
+    color: black;
 }
